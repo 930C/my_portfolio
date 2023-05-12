@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta charset
+    <meta charset="utf-8"/>
     <meta name="viewport"  content="width=device-width, initial-scale=1.0">
     <title>Luca Chmielarski - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
@@ -14,6 +13,7 @@
     </header>
     <main>
         <section id="about_me">
+            <div class="text">
             <h2>About Me</h2>
             <ul>
                 <li>luca</li>
@@ -21,9 +21,11 @@
                 <li>loves backend and devops</li>
                 <li>plays guitar</li>
                 <li>works at sap</li>
-            </ul>
+            </ul></div>
+            <img src="img/PB3_4.jpg" alt="nicer bub" loading="lazy">
         </section>
         <section id="experience">
+            <div class="text">
             <h2>My Experience</h2>
             <ul>
                 <li>java</li>
@@ -31,6 +33,18 @@
                 <li>spring boot</li>
                 <li>python</li>
             </ul>
+            </div>
+        </section>
+        <section id="hobbies">
+            <div class="text">
+                <h2>My Hobbies</h2>
+                <ul id ="hobbies_list">
+                    <li>keine</li>
+                </ul>
+
+                <input type="text" id="myText" value="">
+                <button onclick="addToList()">Add</button>
+            </div>
         </section>
     </main>
     <footer>
